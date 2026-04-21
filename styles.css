@@ -14,8 +14,14 @@ h1 {
 }
 
 section {
+  padding: 10px;
+  border: 1px solid blue;
   background-color: black;
   color: white;
+}
+
+section > p {
+  font-size: 24px;
 }
 
 button {
